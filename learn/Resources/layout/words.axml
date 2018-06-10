@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adUnitId="@string/Banner_Ads"
+        ads:adSize="BANNER" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/home"
+                android:text="المنزل"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="161.5dp"
+                android:layout_margin="40dp"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="-1"
+                android:shadowDy="4"
+                android:shadowRadius="1"
+                android:background="@drawable/backgroundbtncopy"
+                android:drawableTop="@drawable/mosa" />
+            <Button
+                android:id="@+id/school"
+                android:text="المدرسة"
+                android:textColor="#FFFFFF"
+                android:textSize="50sp"
+                android:layout_width="match_parent"
+                android:layout_height="161.5dp"
+                android:layout_margin="40dp"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="-1"
+                android:shadowDy="4"
+                android:shadowRadius="1"
+                android:background="@drawable/backgroundbtncopy" />
+            <Button
+                android:id="@+id/work"
+                android:text="العمل"
+                android:textColor="#FFFFFF"
+                android:textSize="50sp"
+                android:layout_width="match_parent"
+                android:layout_height="161.5dp"
+                android:layout_margin="40dp"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="-1"
+                android:shadowDy="4"
+                android:shadowRadius="1"
+                android:background="@drawable/backgroundbtncopy" />
+            <Button
+                android:id="@+id/street"
+                android:text="الشارع"
+                android:textColor="#FFFFFF"
+                android:textSize="50sp"
+                android:layout_width="match_parent"
+                android:layout_height="161.5dp"
+                android:layout_margin="40dp"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="-1"
+                android:shadowDy="4"
+                android:shadowRadius="1"
+                android:background="@drawable/backgroundbtncopy" />
+           
+            <Button
+                android:id="@+id/hospital"
+                android:text="المستشفى"
+                android:textColor="#FFFFFF"
+                android:textSize="50sp"
+                android:layout_width="match_parent"
+                android:layout_height="161.5dp"
+                android:layout_margin="40dp"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="-1"
+                android:shadowDy="4"
+                android:shadowRadius="1"
+                android:background="@drawable/backgroundbtncopy" />
+            <Button
+                android:id="@+id/sea"
+                android:text="الطقس"
+                android:textColor="#FFFFFF"
+                android:textSize="50sp"
+                android:layout_width="match_parent"
+                android:layout_height="161.5dp"
+                android:layout_margin="40dp"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="-1"
+                android:shadowDy="4"
+                android:shadowRadius="1"
+                android:background="@drawable/backgroundbtncopy" />
+            <Button
+                android:id="@+id/sport"
+                android:text="الرياضه"
+                android:textColor="#FFFFFF"
+                android:textSize="50sp"
+                android:layout_width="match_parent"
+                android:layout_height="161.5dp"
+                android:layout_margin="40dp"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="-1"
+                android:shadowDy="4"
+                android:shadowRadius="1"
+                android:background="@drawable/backgroundbtncopy" />
+           
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

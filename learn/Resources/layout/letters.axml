@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adUnitId="@string/Banner_Ads"
+        ads:adSize="BANNER" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minWidth="25px"
+            android:minHeight="25px">
+            <Button
+                android:text="A"
+                android:layout_width="match_parent"
+                android:id="@+id/a"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp" />
+            <TextView
+                android:text="Appel-تفاحة"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="B"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/b" />
+            <TextView
+                android:text="Banana-موز"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="C"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/c" />
+            <TextView
+                android:text="Car-سيارة"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="D"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/d" />
+            <TextView
+                android:text="Door-باب "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="E"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/e" />
+            <TextView
+                android:text="Egg-بيضه"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="F"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/f" />
+            <TextView
+                android:text="Flower-وردة"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="G"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/g" />
+            <TextView
+                android:text="Gorilla-غوريلا"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="H"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/h" />
+            <TextView
+                android:text="High-عالي"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="I"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/i" />
+            <TextView
+                android:text="Insect-حشرة"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="J"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/j" />
+            <TextView
+                android:text="Jam-مربى"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="K"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/k" />
+            <TextView
+                android:text="Kite-طائرة ورقية"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="L"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/l" />
+            <TextView
+                android:text="Large-كبير"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="M"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/m" />
+            <TextView
+                android:text="Man-رجل"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="N"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/n" />
+            <TextView
+                android:text="Number-رقم"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="O"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/o" />
+            <TextView
+                android:text="Orange-برتقالة"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="P"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/p" />
+            <TextView
+                android:text="Paintbrush-فرشاة الوان"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="Q"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/q" />
+            <TextView
+                android:text="Queen-ملكة"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="R"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/r" />
+            <TextView
+                android:text="Rabbit-ارنب"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="S"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/s" />
+            <TextView
+                android:text="Small-صغير"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="T"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/t" />
+            <TextView
+                android:text="Tree-شجرة"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="U"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/u" />
+            <TextView
+                android:text="Umbrella-شمسية"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="V"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/v" />
+            <TextView
+                android:text="Violin-كمان"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="W"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/w" />
+            <TextView
+                android:text="Woman-إمرأه"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="X"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/x" />
+            <TextView
+                android:text="Xylophone-إكزيليفون"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="Y"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/y" />
+            <TextView
+                android:text="Yallow-أصفر"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="Z"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/z" />
+            <TextView
+                android:text="Zebra-حمار وحشي"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/one" />
+            <TextView
+                android:text="one-واحد"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/two" />
+            <TextView
+                android:text="two-إثنين"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/three" />
+            <TextView
+                android:text="three-ثلاثه"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="4"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/four" />
+            <TextView
+                android:text="four-اربعه"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="5"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/five" />
+            <TextView
+                android:text="five-خمسة"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="6"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/six" />
+            <TextView
+                android:text="six-ستة"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="7"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/seven" />
+            <TextView
+                android:text="seven-سبعة"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="8"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/eight" />
+            <TextView
+                android:text="eight-ثمانيه"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="9"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/nine" />
+            <TextView
+                android:text="nine-تسعه"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="10"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="40dp"
+                android:textSize="70dp"
+                android:id="@+id/ten" />
+            <TextView
+                android:text="ten-عشرة"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+        </LinearLayout>
+    <!-- -->
+    </ScrollView>
+</LinearLayout>

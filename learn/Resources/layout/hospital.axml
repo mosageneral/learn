@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+               xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+  <com.google.android.gms.ads.AdView
+       android:id="@+id/adView1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       ads:adUnitId="@string/Banner_Ads"
+       ads:adSize="BANNER" />
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:minWidth="25px"
+      android:minHeight="25px">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minWidth="25px"
+        android:minHeight="25px">
+      <TextView
+          android:text=" "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView1" />
+      <Button
+          android:text="I'd like to see a doctor	"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b1" />
+      <TextView
+          android:text="أودّ أن أرى طبيباً
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="do you have an appointment?	"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b2" />
+      <TextView
+          android:text="هل لديك موعد؟
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="is it urgent?	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b3" />
+      <TextView
+          android:text="هل الأمر مستعجل؟
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="I'd like to make an appointment to see Dr …	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b4" />
+      <TextView
+          android:text="أودّ أن أحدد موعداً لرؤية الدكتور …
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="do you have any doctors who speak Spanish		 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b5" />
+      <TextView
+          android:text="هل لديكم أي طبيب يتحدث …؟
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="do you have private medical insurance?	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b6" />
+      <TextView
+          android:text="هل لديك تأمين صحي خاص؟
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="have you got a European Health Insurance card?	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b7" />
+      <TextView
+          android:text="هل لديك بطاقة تأمين صحي أوروبية؟
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="please take a seat	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b8" />
+      <TextView
+          android:text="تفضل بالجلوس
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="the doctor's ready to see you now	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b9" />
+      <TextView
+          android:text="الطبيب مستعد لرؤيتك الآن
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="how can I help you?	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b10" />
+      <TextView
+          android:text="كيف يمكنني مساعدتك؟
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="what's the problem?	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b11" />
+      <TextView
+          android:text="ما المشكلة؟
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="what are your symptoms?	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b12" />
+      <TextView
+          android:text="ما أعراضك؟
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="temperature "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b13" />
+      <TextView
+          android:text="حرارة (مرتفعة)
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="sore throat	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b14" />
+      <TextView
+          android:text="حلق ملتهب
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="headache	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b15" />
+      <TextView
+          android:text="صداع
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="rash	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b16" />
+      <TextView
+          android:text="طفح (جلدي)
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="I've been feeling sick	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b17" />
+      <TextView
+          android:text="(كنت ولا أزال) أشعر بالغثيان
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="I've been having headaches	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b18" />
+      <TextView
+          android:text="(كنت ولا أزال) أعاني من صداع
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="I'm very congested	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b19" />
+      <TextView
+          android:text="لديّ احتقان شديد
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="my joints are aching	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b20" />
+      <TextView
+          android:text="مفاصلي تؤلمني
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="I've got diarrhoea	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b21" />
+      <TextView
+          android:text="لديّ إسهال
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="I'm constipated	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b22" />
+      <TextView
+          android:text="لديّ إمساك
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="I'm in a lot of pain	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b23" />
+      <TextView
+          android:text="أعاني من ألم شديد
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="I've got a pain in my …	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b24" />
+      <TextView
+          android:text="لديّ ألم في …
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="I think I've pulled a muscle in my leg	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b25" />
+      <TextView
+          android:text="أعتقد أني مزّقت عضلة في رجلي
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="asthmatic	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b26" />
+      <TextView
+          android:text="ربو "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="diabetic	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b27" />
+      <TextView
+          android:text="سكري
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="epileptic "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b28" />
+      <TextView
+          android:text="صرع
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="another inhaler	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b29" />
+      <TextView
+          android:text="مِنْشاق ربو (جهاز استنشاق)
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="some more insulin	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b30" />
+      <TextView
+          android:text="المزيد من الأنسولين
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="I'm having difficulty breathing	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b31" />
+      <TextView
+          android:text="أعاني من صعوبة في التنفس
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="I've got very little energy	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b32" />
+      <TextView
+          android:text="طاقتي منخفضة جداً
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="I've been feeling very tired	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b33" />
+      <TextView
+          android:text="أشعر بالتعب الشديد
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="I've been feeling depressed	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b34" />
+      <TextView
+          android:text="أشعر بالاكتئاب
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="I've been having difficulty sleeping	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b35" />
+      <TextView
+          android:text="أعاني من صعوبة في النوم
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="how long have you been feeling like this?	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b36" />
+      <TextView
+          android:text="كم صار لك وأنت تشعر هكذا؟
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="how have you been feeling generally?	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b37" />
+      <TextView
+          android:text="كيف تشعر إجمالاً؟
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="is there any possibility you might be pregnant?	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b38" />
+      <TextView
+          android:text="هل هناك أي احتمال أن تكوني حامل؟
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="I think I might be pregnant	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b39" />
+      <TextView
+          android:text="أعتقد أني ربما أكون حاملاً
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="do you have any allergies?	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b40" />
+      <TextView
+          android:text="هل لديك أية حساسية؟ (تجاه دواء معين)
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="I'm allergic to antibiotics	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b41" />
+      <TextView
+          android:text="لديّ حساسية تجاه مضادات الالتهاب
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="are you on any sort of medication?	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b42" />
+      <TextView
+          android:text="هل تتناول أي نوع من الأدوية؟
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text="I need a sick note	 "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b43" />
+      <TextView
+          android:text="أحتاج لإذن مرضي
+ "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text=" "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b44" />
+      <TextView
+          android:text=" "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text=" "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b45" />
+      <TextView
+          android:text=" "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text=" "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b46" />
+      <TextView
+          android:text=" "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text=" "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b47" />
+      <TextView
+          android:text=" "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text=" "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b48" />
+      <TextView
+          android:text=" "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text=" "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b49" />
+      <TextView
+          android:text=" "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+      <Button
+          android:text=" "
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/b50" />
+      <TextView
+          android:text=" "
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView2" />
+    </LinearLayout>
+  </ScrollView>
+</LinearLayout>

@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+               xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+  <com.google.android.gms.ads.AdView
+       android:id="@+id/adView1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       ads:adUnitId="@string/Banner_Ads"
+       ads:adSize="BANNER" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minWidth="25px"
+            android:minHeight="25px">
+            <TextView
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="how long have you worked here? "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b1" />
+            <TextView
+                android:text="كم صار لك تعمل هنا؟ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="I'm going out for lunch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b2" />
+            <TextView
+                android:text="سأخرج لتناول الغداء "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="I'll be back at 1.30 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b3" />
+            <TextView
+                android:text="سأعود عند الواحدة والنصف
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="how long does it take you to get to work? "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b4" />
+            <TextView
+                android:text="كم يستغرقك الطريق للوصول إلى العمل؟
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="the traffic was terrible today "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b5" />
+            <TextView
+                android:text="كانت حركة المرور (الازدحام) فظيعة اليوم
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="how do you get to work?	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b6" />
+            <TextView
+                android:text="كيف تأتي إلى العمل؟
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="he's in a meeting "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b7" />
+            <TextView
+                android:text="إنه في اجتماع
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="what time does the meeting start? "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b8" />
+            <TextView
+                android:text="متى يبدأ الاجتماع؟
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="what time does the meeting finish? "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b9" />
+            <TextView
+                android:text="متى ينتهي الاجتماع؟
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="the reception's on the first floor "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b10" />
+            <TextView
+                android:text="الاستقبال (الاستعلامات) في الطابق الأول "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="I'll be free after lunch "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b11" />
+            <TextView
+                android:text="سأكون حرّاً بعد الغداء (غير مرتبط)
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="she's having a leaving-do on Friday "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b12" />
+            <TextView
+                android:text="ستقيم حفلة وداع يوم الجمعة (عامية)
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="she's resigned "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b13" />
+            <TextView
+                android:text="لقد استقالت
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="this invoice is overdue "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b14" />
+            <TextView
+                android:text="هذا الإيصال متأخر (فات موعد وصوله)
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="he's been promoted "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b15" />
+            <TextView
+                android:text="لقد تمّت ترقيته
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="here's my business card	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b16" />
+            <TextView
+                android:text="هذه بطاقتي المهنية (كرت فيزيت)
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="can I see the report? "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b17" />
+            <TextView
+                android:text="هل أستطيع ان أرى التقرير؟
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="I need to do some photocopying	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b18" />
+            <TextView
+                android:text="أحتاج للقيام ببعض النسخ
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="where's the photocopier?	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b19" />
+            <TextView
+                android:text="أين الآلة الناسخة؟
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="the photocopier's jammed	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b20" />
+            <TextView
+                android:text="الآلة الناسخة عالقة (بسبب الورق)
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="I've left the file on your desk	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b21" />
+            <TextView
+                android:text="لقد تركتُ الملف على مكتبك
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="you're fired!	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b22" />
+            <TextView
+                android:text="أنت مطرود!
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="there's a problem with my computer	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b23" />
+            <TextView
+                android:text="هناك مشكلة في حاسبي
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="the system's down at the moment	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b24" />
+            <TextView
+                android:text="النظام لا يعمل حالياً
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="the internet's down at the moment	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b25" />
+            <TextView
+                android:text="الإنترنت لا يعمل حالياً
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="I can't access my emails	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b26" />
+            <TextView
+                android:text="لا أستطيع الدخول إلى بريدي الإلكتروني
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="the printer isn't working	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b27" />
+            <TextView
+                android:text="الطابعة لا تعمل
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="she's on maternity leave	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b28" />
+            <TextView
+                android:text="إنها في إجازة أمومة
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="he's on paternity leave	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b29" />
+            <TextView
+                android:text="انه في إجازة الأبوة
+"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="he's off sick today	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b30" />
+            <TextView
+                android:text="إنه في إجازة مَرَضية اليوم
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="he's not in today	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b31" />
+            <TextView
+                android:text="لم يأتِ (إلى العمل) اليوم
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="she's on holiday	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b32" />
+            <TextView
+                android:text="إنها في عطلة
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="I'm afraid I'm not well and won't be able to come in today	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b33" />
+            <TextView
+                android:text="مع الأسف لا أشعر أني على ما يرام ولن أستطيع القدوم للعمل اليوم
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="he's with a customer at the moment	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b34" />
+            <TextView
+                android:text="إنه مع زبون حالياً
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="I'll be with you in a moment	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b35" />
+            <TextView
+                android:text="سأكون معك بعد لحظة
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="sorry to keep you waiting	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b36" />
+            <TextView
+                android:text="آسف على إبقائك منتظراً
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="can I help you?	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b37" />
+            <TextView
+                android:text="هل أستطيع مساعدتك بشيء؟
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="do you need any help?	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b38" />
+            <TextView
+                android:text="هل تحتاج لأية مساعدة؟
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="what can I do for you?	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b39" />
+            <TextView
+                android:text="ماذا أستطيع أن أفعل لك؟ (كيف أستطيع مساعدتك؟)
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="is this a temporary or permanent position?	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b40" />
+            <TextView
+                android:text="هل هذا موقع (وظيفة) مؤقت أم دائم؟
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="what are the hours of work?	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b41" />
+            <TextView
+                android:text="كم عدد ساعات العمل؟
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text=" "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b42" />
+            <TextView
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text=" "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b43" />
+            <TextView
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text=" "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b44" />
+            <TextView
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text=" "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b45" />
+            <TextView
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text=" "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b46" />
+            <TextView
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text=" "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b47" />
+            <TextView
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text=" "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b48" />
+            <TextView
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text=" "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b49" />
+            <TextView
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text=" "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b50" />
+            <TextView
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

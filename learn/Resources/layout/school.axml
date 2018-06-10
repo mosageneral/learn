@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adUnitId="@string/Banner_Ads"
+        ads:adSize="BANNER" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minWidth="25px"
+            android:minHeight="25px">
+            <TextView
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="are you a student?	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b1" />
+            <TextView
+                android:text="هل أنت طالب؟
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="what do you study?	"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b2" />
+            <TextView
+                android:text="ماذا تدرس؟
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="I'm studying …	"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b3" />
+            <TextView
+                android:text="أنا أدرس …
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="history "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b4" />
+            <TextView
+                android:text="تاريخ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="economics	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b5" />
+            <TextView
+                android:text="اقتصاد	 "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="medicine "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b6" />
+            <TextView
+                android:text="طب "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="where do you study?	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b7" />
+            <TextView
+                android:text="أين تدرس؟
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="which university are you at?	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b8" />
+            <TextView
+                android:text="في أي جامعة أنت؟
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="what university do you go to?	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b9" />
+            <TextView
+                android:text="إلى أي جامعة تذهب؟
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="which year are you in?	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b10" />
+            <TextView
+                android:text="في أي سنة أنت؟
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="I'm in my … year	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b11" />
+            <TextView
+                android:text="أنا في السنة …
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="I'm in my first year at university	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b12" />
+            <TextView
+                android:text="أنا في السنة الأولى في الجامعة
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="do you have any exams coming up?	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b13" />
+            <TextView
+                android:text="هل لديك أية امتحانات في الفترة المقبلة؟
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="I've just graduated	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b14" />
+            <TextView
+                android:text="لقد تخرّجت لتوّي
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="I'm doing a masters in …	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b15" />
+            <TextView
+                android:text="أجري ماجستيراً في …
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="I'm doing a PhD in …	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b16" />
+            <TextView
+                android:text="أجري رسالة دكتوراة في …
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="did you go to university?	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b17" />
+            <TextView
+                android:text="هل تذهب إلى الجامعة؟
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="I didn't go to university	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b18" />
+            <TextView
+                android:text="لم أذهب إلى الجامعة
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="I never went to university	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b19" />
+            <TextView
+                android:text="لم أذهب إلى الجامعة قطّ
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="where did you go to university?	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b20" />
+            <TextView
+                android:text="أين ذهبت إلى الجامعة؟
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="I'm taking a gap year	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b21" />
+            <TextView
+                android:text="أنا في فجوة دراسية (سنة حرّة بعد إنهاء المدرسة وقبل البدء بالجامعة، عادة ما يسافر فيها الطلاب أو يقومون بأعمال طوعية)
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="how many more years do you have to go?	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b22" />
+            <TextView
+                android:text="كم سنة بعدُ يلزمك؟ (لتنهي الجامعة)
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+         <!--   <Button
+                android:text="mosa "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b23" />
+            <TextView
+                android:text="hkj "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="mosa "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b24" />
+            <TextView
+                android:text="hkj "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="mosa "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b25" />
+            <TextView
+                android:text="hkj "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="mosa "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b26" />
+            <TextView
+                android:text="hkj "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="mosa "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b27" />
+            <TextView
+                android:text="hkj "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="mosa "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b28" />
+            <TextView
+                android:text="hkj "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="mosa "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b29" />
+            <TextView
+                android:text="hkj "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="mosa "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b30" />
+            <TextView
+                android:text="hkj "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="mosa "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b31" />
+            <TextView
+                android:text="hkj "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="mosa "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b32" />
+            <TextView
+                android:text="hkj "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="mosa "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b33" />
+            <TextView
+                android:text="hkj "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="mosa "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b34" />
+            <TextView
+                android:text="hkj "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="mosa "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b35" />
+            <TextView
+                android:text="hkj "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="mosa "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b36" />
+            <TextView
+                android:text="hkj "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="mosa "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b37" />
+            <TextView
+                android:text="hkj "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="mosa "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b38" />
+            <TextView
+                android:text="hkj "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="mosa "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b39" />
+            <TextView
+                android:text="hkj "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="mosa "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b40" />
+            <TextView
+                android:text="hkj "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="mosa "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b41" />
+            <TextView
+                android:text="hkj "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="mosa "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b42" />
+            <TextView
+                android:text="hkj "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="mosa "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b43" />
+            <TextView
+                android:text="hkj "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="mosa "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b44" />
+            <TextView
+                android:text="hkj "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="mosa "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b45" />
+            <TextView
+                android:text="hkj "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="mosa "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b46" />
+            <TextView
+                android:text="hkj "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="mosa "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b47" />
+            <TextView
+                android:text="hkj "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="mosa "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b48" />
+            <TextView
+                android:text="hkj "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="mosa "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b49" />
+            <TextView
+                android:text="hkj "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="mosa "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b50" />
+            <TextView
+                android:text="hkj "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />-->
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

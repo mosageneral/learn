@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+               xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+  <com.google.android.gms.ads.AdView
+       android:id="@+id/adView1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       ads:adUnitId="@string/Banner_Ads"
+       ads:adSize="BANNER" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minWidth="25px"
+            android:minHeight="25px">
+            <TextView
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1" />
+            <Button
+                android:text="breakfast	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b1" />
+            <TextView
+                android:text="الفطور "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="lunch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b2" />
+            <TextView
+                android:text="الغداء "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="dinner "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b3" />
+            <TextView
+                android:text="العشاء "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="what would you like for …?	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b4" />
+            <TextView
+                android:text="ماذا تحبّ أن تأكل على …؟
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="would you like some toast?	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b5" />
+            <TextView
+                android:text="هل تودّ بعض الخبز المحمّص
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="can you switch the light on?	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b6" />
+            <TextView
+                android:text="هل من الممكن ان تشعل الضوء؟
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="can you switch the light off?	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b7" />
+            <TextView
+                android:text="هل من الممكن ان تطفئ الضوء؟
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="is there anything I can do to help?	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b8" />
+            <TextView
+                android:text="هل من شيء أستطيع أن أفعله للمساعدة؟
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="could you help me wash the dishes?	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b9" />
+            <TextView
+                android:text="هل تساعدني في غسل الصحون؟
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="I'll wash and you dry	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b10" />
+            <TextView
+                android:text="أنا سأغسل وأنت تجفّف
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="I'm going to bed	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b11" />
+            <TextView
+                android:text="سأخلد للنوم
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="is there anything good on TV?	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b12" />
+            <TextView
+                android:text="هل هناك أي شيء جيد على التلفاز؟
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="is there anything good on television tonight?	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b13" />
+            <TextView
+                android:text="هل هناك أي شيء جيد على التلفاز الليلة؟
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="there's a good film on later	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b14" />
+            <TextView
+                android:text="سيكون هناك فلماً جيداً
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="do you want me to put the TV on?	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b15" />
+            <TextView
+                android:text="هل تريدني أن أشغل التلفاز؟
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="could you pass me the remote control?	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b16" />
+            <TextView
+                android:text="هلا ناولتني جهاز التحكم؟
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="what time's the match on?	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b17" />
+            <TextView
+                android:text="متى تبداً المباراة؟
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="من يلعب؟
+ "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b18" />
+            <TextView
+                android:text="من الرابح؟
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="lounge "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b19" />
+            <TextView
+                android:text="غرفة الجلوس
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="living room	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b20" />
+            <TextView
+                android:text="غرفة المعيشة
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="dining room	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b21" />
+            <TextView
+                android:text="غرفة الطعام
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="do you mind if I smoke here?	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b22" />
+            <TextView
+                android:text="هل تمانع إن دخّنتُ هنا؟
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="I'll show you your room	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b23" />
+            <TextView
+                android:text="سأريك(م) غرفتك(م)
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="this is your room	 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b24" />
+            <TextView
+                android:text="هذه غرفتك(م)
+ "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="  "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b25" />
+            <TextView
+                android:text="  "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="  "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b26" />
+            <TextView
+                android:text="  "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="  "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b27" />
+            <TextView
+                android:text="  "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="  "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b28" />
+            <TextView
+                android:text="  "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="  "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b29" />
+            <TextView
+                android:text="  "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="  "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b30" />
+            <TextView
+                android:text="  "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="  "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b31" />
+            <TextView
+                android:text="   "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="  "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b32" />
+            <TextView
+                android:text="  "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="  "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b33" />
+            <TextView
+                android:text="  "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="  "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b34" />
+            <TextView
+                android:text="  "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="  "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b35" />
+            <TextView
+                android:text="  "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="  "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b36" />
+            <TextView
+                android:text="  "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="  "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b37" />
+            <TextView
+                android:text="  "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="  "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b38" />
+            <TextView
+                android:text="  "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="  "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b39" />
+            <TextView
+                android:text="  "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="  "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b40" />
+            <TextView
+                android:text="  "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="  "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b41" />
+            <TextView
+                android:text="  "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="  "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b42" />
+            <TextView
+                android:text="  "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="  "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b43" />
+            <TextView
+                android:text="  "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="  "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b44" />
+            <TextView
+                android:text="  "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="  "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b45" />
+            <TextView
+                android:text="  "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="  "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b46" />
+            <TextView
+                android:text="  "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="  "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b47" />
+            <TextView
+                android:text="  "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="  "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b48" />
+            <TextView
+                android:text="  "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text="  "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b49" />
+            <TextView
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <Button
+                android:text=" "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/b50" />
+            <TextView
+                android:text=" "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
