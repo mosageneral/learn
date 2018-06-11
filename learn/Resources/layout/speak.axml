@@ -14,9 +14,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnSpeak" />
+    <TextView
+        android:text="اكتب ما تريد سماعه :"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
     <EditText
         android:inputType="textMultiLine"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editSpeech" />
+        android:id="@+id/editSpeech"
+        android:isScrollContainer="true"
+        android:keepScreenOn="true" />
 </LinearLayout>

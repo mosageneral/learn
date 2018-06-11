@@ -49,20 +49,6 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/textView1" />
             <Button
-                android:text="كيفية الإستخدام"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/btninfo"
-                android:background="@drawable/backgroundbtn"
-                android:textColor="@color/white"
-                android:textSize="24dp" />
-            <TextView
-                android:text=" "
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView3" />
-            <Button
                 android:text="قيم التطبيق"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

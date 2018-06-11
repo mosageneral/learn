@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-               xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:minWidth="25px"
     android:minHeight="25px">
-  <com.google.android.gms.ads.AdView
-       android:id="@+id/adView1"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       ads:adUnitId="@string/Banner_Ads"
-       ads:adSize="BANNER" />
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adUnitId="@string/Banner_Ads"
+        ads:adSize="BANNER" />
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -30,7 +30,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/textView1" />
             <Button
-                android:text="breakfast	 "
+                android:text="breakfast  "
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/b1" />
@@ -63,182 +63,166 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/textView2" />
             <Button
-                android:text="what would you like for …?	 "
+                android:text="what would you like for …?  "
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/b4" />
             <TextView
-                android:text="ماذا تحبّ أن تأكل على …؟
- "
+                android:text="ماذا تحبّ أن تأكل على …؟  "
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView2" />
             <Button
-                android:text="would you like some toast?	 "
+                android:text="would you like some toast?  "
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/b5" />
             <TextView
-                android:text="هل تودّ بعض الخبز المحمّص
- "
+                android:text="هل تودّ بعض الخبز المحمّص  "
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView2" />
             <Button
-                android:text="can you switch the light on?	 "
+                android:text="can you switch the light on?  "
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/b6" />
             <TextView
-                android:text="هل من الممكن ان تشعل الضوء؟
- "
+                android:text="هل من الممكن ان تشعل الضوء؟  "
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView2" />
             <Button
-                android:text="can you switch the light off?	 "
+                android:text="can you switch the light off?  "
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/b7" />
             <TextView
-                android:text="هل من الممكن ان تطفئ الضوء؟
- "
+                android:text="هل من الممكن ان تطفئ الضوء؟  "
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView2" />
             <Button
-                android:text="is there anything I can do to help?	 "
+                android:text="is there anything I can do to help?  "
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/b8" />
             <TextView
-                android:text="هل من شيء أستطيع أن أفعله للمساعدة؟
- "
+                android:text="هل من شيء أستطيع أن أفعله للمساعدة؟  "
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView2" />
             <Button
-                android:text="could you help me wash the dishes?	 "
+                android:text="could you help me wash the dishes?  "
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/b9" />
             <TextView
-                android:text="هل تساعدني في غسل الصحون؟
- "
+                android:text="هل تساعدني في غسل الصحون؟  "
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView2" />
             <Button
-                android:text="I'll wash and you dry	 "
+                android:text="I'll wash and you dry  "
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/b10" />
             <TextView
-                android:text="أنا سأغسل وأنت تجفّف
- "
+                android:text="أنا سأغسل وأنت تجفّف  "
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView2" />
             <Button
-                android:text="I'm going to bed	 "
+                android:text="I'm going to bed  "
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/b11" />
             <TextView
-                android:text="سأخلد للنوم
- "
+                android:text="سأخلد للنوم  "
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView2" />
             <Button
-                android:text="is there anything good on TV?	 "
+                android:text="is there anything good on TV?  "
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/b12" />
             <TextView
-                android:text="هل هناك أي شيء جيد على التلفاز؟
- "
+                android:text="هل هناك أي شيء جيد على التلفاز؟  "
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView2" />
             <Button
-                android:text="is there anything good on television tonight?	 "
+                android:text="is there anything good on television tonight?  "
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/b13" />
             <TextView
-                android:text="هل هناك أي شيء جيد على التلفاز الليلة؟
- "
+                android:text="هل هناك أي شيء جيد على التلفاز الليلة؟  "
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView2" />
             <Button
-                android:text="there's a good film on later	 "
+                android:text="there's a good film on later  "
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/b14" />
             <TextView
-                android:text="سيكون هناك فلماً جيداً
- "
+                android:text="سيكون هناك فلماً جيداً  "
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView2" />
             <Button
-                android:text="do you want me to put the TV on?	 "
+                android:text="do you want me to put the TV on?  "
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/b15" />
             <TextView
-                android:text="هل تريدني أن أشغل التلفاز؟
- "
+                android:text="هل تريدني أن أشغل التلفاز؟  "
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView2" />
             <Button
-                android:text="could you pass me the remote control?	 "
+                android:text="could you pass me the remote control?  "
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/b16" />
             <TextView
-                android:text="هلا ناولتني جهاز التحكم؟
- "
+                android:text="هلا ناولتني جهاز التحكم؟  "
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView2" />
             <Button
-                android:text="what time's the match on?	 "
+                android:text="what time's the match on?  "
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/b17" />
             <TextView
-                android:text="متى تبداً المباراة؟
- "
+                android:text="متى تبداً المباراة؟  "
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView2" />
             <Button
-                android:text="من يلعب؟
- "
+                android:text="من يلعب؟  "
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/b18" />
             <TextView
-                android:text="من الرابح؟
- "
+                android:text="من الرابح؟  "
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -249,72 +233,72 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/b19" />
             <TextView
-                android:text="غرفة الجلوس
- "
+                android:text="غرفة الجلوس  "
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView2" />
             <Button
-                android:text="living room	 "
+                android:text="living room  "
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/b20" />
             <TextView
-                android:text="غرفة المعيشة
- "
+                android:text="غرفة المعيشة  "
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView2" />
             <Button
-                android:text="dining room	 "
+                android:text="dining room  "
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/b21" />
             <TextView
-                android:text="غرفة الطعام
- "
+                android:text="غرفة الطعام  "
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView2" />
             <Button
-                android:text="do you mind if I smoke here?	 "
+                android:text="do you mind if I smoke here?  "
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/b22" />
             <TextView
-                android:text="هل تمانع إن دخّنتُ هنا؟
- "
+                android:text="هل تمانع إن دخّنتُ هنا؟  "
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView2" />
             <Button
-                android:text="I'll show you your room	 "
+                android:text="I'll show you your room  "
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/b23" />
             <TextView
-                android:text="سأريك(م) غرفتك(م)
- "
+                android:text="سأريك(م) غرفتك(م)  "
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView2" />
             <Button
-                android:text="this is your room	 "
+                android:text="this is your room  "
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/b24" />
             <TextView
-                android:text="هذه غرفتك(م)
- "
+                android:text="هذه غرفتك(م)  "
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView2" />
+            <TextView
+                android:text="انتظروا اكثر من    6000    كلمة وتعبير ف التحديث القادم "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3" />
             <Button
                 android:text="  "
                 android:layout_width="match_parent"

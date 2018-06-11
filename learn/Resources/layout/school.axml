@@ -290,6 +290,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView2" />
+          <TextView
+               android:text="انتظروا اكثر من    6000    كلمة وتعبير ف التحديث القادم "
+               android:textAppearance="?android:attr/textAppearanceLarge"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/textView3" />
          <!--   <Button
                 android:text="mosa "
                 android:layout_width="match_parent"
